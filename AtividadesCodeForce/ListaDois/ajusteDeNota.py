@@ -1,3 +1,3 @@
-n,x = map(float,input().split());
-calculo = ((x + n) //10)
-print(calculo);
+x,n = map(float,input().split());
+nota_normalizada = (n*100) // x;
+print(int(nota_normalizada))
