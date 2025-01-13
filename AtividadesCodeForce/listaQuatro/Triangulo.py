@@ -10,3 +10,4 @@ elif a + b > d and b + d > a and a + d > b:
     print('S')
 else:
     print('N')
+    
