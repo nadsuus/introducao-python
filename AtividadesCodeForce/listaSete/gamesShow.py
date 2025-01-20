@@ -1,6 +1,8 @@
 c = int(input())
-conteudo = list(map(int,input().split))
-creditos = 100
-
-for i in conteudo:
-    conteudo[0] 
+valores = [int(input()) for _ in range(c)]
+saldo = 100
+max_saldo = saldo
+for valor in valores:
+    saldo += valor
+    max_saldo = max(max_saldo, saldo)
+print(max_saldo)
